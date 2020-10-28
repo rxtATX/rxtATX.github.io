@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rachel Thiim GH Pages Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/moving-text.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/card.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
   </head>
   <body>
-    <h1>Github pages</h1>
-    <p>Hello World!</p>
-    <br/>
-    <a href="https://rxtatx.github.io/mothers_day/">Play a word game...</a>
+    <span>&nbsp;</span>
+    <!-- https://tobiasahlin.com/moving-letters/#5 -->
+    <header class="ml5">
+      <h1 class="vertical-center">
+        <!-- <span class="text-wrapper"> -->
+          <span class="line line1"></span>
+          <span class="letters decoration">&lbrace;</span>
+          <span class="letters letters-left">Hello</span>
+          <span class="letters decoration heart">&#10084;</span>
+          <span class="letters letters-left">World</span>
+          <span class="letters decoration">&rbrace;</span>
+          <span class="line line2"></span>
+        <!-- </span> -->
+      </h1>
+    </header>
+    <main>
+      <div class="panel">
+        <div class="cover">
+          <a href="https://rxtatx.github.io/mothers_day/" target="_new">
+            <h4>&#10149;&nbsp;Mothers' Day App</h3>
+          </a>
+          <a href="https://rxtatx.github.io/mothers_day/" target="_new">
+            <img src="./assets/images/dsBuffer.png" alt="cover">
+          </a>
+        </div>
+        <div class="card">
+          <blockquote>
+            A word-find grid game built for my mother. 
+            <br><em>Love you, Mom!</em>
+          </blockquote>
+          <a href="https://github.com/rxtatx/mothers_day/" target="_new"><p class="text-muted">Made in a week using React.</p></a>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./assets/js/moving-text.js"></script>
   </body>
 </html>

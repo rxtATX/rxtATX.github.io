@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial Narrow', Arial, system-ui;
+  background-color: #bbdefb;
+  height: 100vh;
+}
+
+header {
+  position: relative;
+  height: 10rem;
+  width: calc(100vw - 17px);
+  background-color: #f8f8ff;
+  margin-top: 10vh;
+}
+
+main {
+  padding-top: 1em;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  width: 80vw;
+  margin: 0 auto;
+  background: ghostwhite;
+  border-left: medium solid black;
+  border-right: medium solid black;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  width: calc(100% - 4px); /*4px to account for custom scroll width*/
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
